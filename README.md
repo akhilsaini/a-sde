@@ -1,14 +1,14 @@
 ## Sorting
 
-	### Bubble Sort
+### Bubble Sort
 		- Compares the consecutive items and put the highest on the endmost position.
 		- 
 
-    ### Insertion Sort
+### Insertion Sort
 
-    ### Quick Sort
+### Quick Sort
 
-    ### Binary Search Sort
+### Binary Search Sort
 
-    ### Heap Sort
+### Heap Sort
     

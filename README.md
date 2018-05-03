@@ -1,5 +1,5 @@
 ## Sorting
-
+  
 ### Bubble Sort
 	- Compares the consecutive items and put the highest on the endmost position.
 	- 

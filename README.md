@@ -11,7 +11,7 @@
 - Selects the smallest element and puts in the first place and then second smallest element and so on.
 
 - Analysis
-	Number of comparison doesn't depend upon the order of the data i.e. not data sensitive.
+	- Number of comparison doesn't depend upon the order of the data i.e. not data sensitive.
 	- Data in Sorted Order : O(n2).
 	- Data in Reverse Order : O(n2).
 	- Data in Random Order : O(n2).
@@ -44,7 +44,7 @@
 - In each pass first element from the unsorted list is taken and placed in sorted list at proper place.
 
 - Analysis
-	Outer loop will always have n-1 iterations. Iteration of inner loop will vary according to the data.
+	- Outer loop will always have n-1 iterations. Iteration of inner loop will vary according to the data.
 	- Data in Sorted Order : O(n).
 	- Data in Reverse Order : O(n2).
 	- Data in Random Order : O(n2).

@@ -7,6 +7,7 @@
 - Inplace Sort : When additional space requirement is O(1) i.e. contant. Not directly depend upon the input size.
 
 ### Selection Sort
+
 - Simplest techinque
 - Selects the smallest element and puts in the first place and then second smallest element and so on.
 
@@ -24,6 +25,7 @@
 
 
 ### Bubble Sort
+
 - Compares each element with its adjacent and swaps them if they are not in order.
 
 - Analysis
@@ -38,6 +40,7 @@
 	- Space Complexity : O(1).
 
 ### Insertion Sort
+
 - Insertion of the element at proper place like the card player.
 - List will be divided into two parts i) Sorted ii) Unsorted.
 - Initially sorted part contains only 1 element and rest of the part is unsorted list.

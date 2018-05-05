@@ -21,7 +21,6 @@
 	- Not Stable.
 	- Inplace.
 
-
 ### Bubble Sort
 
 - Compares each element with its adjacent and swaps them if they are not in order.
@@ -54,6 +53,22 @@
 	- Stable sort(maintain the relative order of duplicate elements).
 	- Inplace sort(only one temp variable required).
 	- Space Complexity : O(1).
+
+### Merge Sort
+
+- O(nlogn) in both worst and average case.
+- Use the merge process, which merges the two sorted arrays in one pass.
+- TOP DWON MERGE SORT(RECURSIVE) : Not covering other flavour.
+- Analysis
+	- n elements repeated divided into half approaximately logn(base 2) times. After halving logn times we get n sublist of size 1.
+	- In each pass there will be merging of n elements which is O(n). So the performance of this algo is O(nlogn)
+	- Data in Sorted Order : O(nlogn).
+	- Data in Reverse Order : O(n2nlogn).
+	- Data in Random Order : O(nlogn).
+- Facts
+	- Stable sort(maintain the relative order of duplicate elements).
+	- Not Inplace sort(as merging itself is not inplace).
+	- Space Complexity : O(n).
 
 ### Quick Sort
 

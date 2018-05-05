@@ -63,14 +63,53 @@
 	- n elements repeated divided into half approaximately logn(base 2) times. After halving logn times we get n sublist of size 1.
 	- In each pass there will be merging of n elements which is O(n). So the performance of this algo is O(nlogn)
 	- Data in Sorted Order : O(nlogn).
-	- Data in Reverse Order : O(n2nlogn).
+	- Data in Reverse Order : O(nlogn).
 	- Data in Random Order : O(nlogn).
 - Facts
 	- Stable sort(maintain the relative order of duplicate elements).
 	- Not Inplace sort(as merging itself is not inplace).
 	- Space Complexity : O(n).
 
-### Quick Sort
+### Quick Sort(Partition Exchange Sort)
+
+- Choose the element from the list and place it as its proper position in the list i.e. the final position.
+- This element is pivot and
+	- all elements to the left are <= the pivot(less than or equal to).
+	- all elements to the right are >= the pivot.
+- Any element can be pivot but for convenience we choose the first element.
+- Sublists of the left and right are sorted recursively using quick_sort algo itself.
+- Terminating condition of recursion will be when sublist contains only one element.
+- No need to combine the sublist at the end, as they are placed in that way that they are already combined.
+- **Algo**
+	- Suppose we have arr[low:up] and arr[low] is pivot. Then i=low+1 and j = up.
+	- a) : compare the pivot with arr[i], and increment i if arr[i] < pivot. So i moves LTR and stops when we get an element>= pivot.
+	- b) : compare the pivot with arr[j], and decrement j if arr[j] > pivot. So j moves RTL and stops when we get he element<= pivot.
+	- c) : if i< j
+		- swap arr[i] and arr[j] and i++ and j--.
+		- else
+			- No swap, i++.
+	- d) : Repeat a,b,c till the value of i is less than or equal to j. Stop when i exceeds j.
+	- e) : When i>j then proper place for i pivot is jth index.
+- Analysis
+	- If the partition is balanced i.e. two sublists are of equal size then sort is fast o/w slow.
+	- Worst Case : O(n2).
+	- Average Case : O(nlogn).
+	- Best Case : O(nlogn).
+- Facts
+	- Not Stable sort.
+	- Inplace sort.
+	- Space Complexity : O(logn). Pivot variable in quick_sort method.
+- Choice of Pivot in Quick Sort
+	- First element : is not good choice in sorted or almost sorted array as it'll imbalance the sublists.
+	- Last element : Same as above.
+	- Random number : Good, but random number generation itself is costly.
+	- Ideal choice : is median of the elements. So instead of all elements choose median of first,last and mid elements. arr[low],arr[up],arr[(low+up)/2]. **Refer SK Srivastava Page 450. Little Tricky.**
+- Duplicate elemnets in Quick Sort
+	- We stop variables when we find an element equal to the pivot. There can be 4 other options.
+		- stop i and move j : All equql elements would go the right sublist.
+		- stop j and move i : All equql elements would go the left sublist.
+		- stop both i and j : Many unnecessary swaps in case all the elements are same,but good thing is that i and j will meet in middle of the list. So no unbalanced sublists.
+		- move both i and j : No unnecessary swaps but unbalanced sublists.
 
 ### Binary Search Sort
 

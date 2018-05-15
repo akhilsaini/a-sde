@@ -126,6 +126,7 @@
 - **Deterministic Selection algorithm of O(n)**
 	- [Also called Median selection algo](https://www.youtube.com/watch?v=eRqmSTSmkJk)
 	- [Refer](selection-algos/deterministic-selection-algo/median-lineartime.pdf)
+	- [Refer](selection-algos/deterministic-selection-algo/L05.pdf)
 - Duplicate elemnets in Quick Sort
 	- We stop variables when we find an element equal to the pivot. There can be 4 other options.
 		- stop i and move j : All equql elements would go the right sublist.

@@ -123,6 +123,9 @@
 	- Last element : Same as above.
 	- Random number : Good, but random number generation itself is costly.
 	- Ideal choice : is median of the elements. So instead of all elements choose median of first,last and mid elements. arr[low],arr[up],arr[(low+up)/2]. **Refer SK Srivastava Page 450. Little Tricky.**
+- **Deterministic Selection algorithm of O(n)**
+	- [Also called Median selection algo](https://www.youtube.com/watch?v=eRqmSTSmkJk)
+	- [Refer](selection-algos/deterministic-selection-algo/median-lineartime.pdf)
 - Duplicate elemnets in Quick Sort
 	- We stop variables when we find an element equal to the pivot. There can be 4 other options.
 		- stop i and move j : All equql elements would go the right sublist.

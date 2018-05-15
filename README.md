@@ -1,5 +1,8 @@
 [MAIN LINK TO FOLLOW](https://www.geeksforgeeks.org/amazon-interview-preparation/)
 
+<details>
+<summary>Sorting</summary>
+
 ## Sorting
 
 - Types of Sorting
@@ -7,6 +10,9 @@
 	- External : Large data and can't be placed in main memory(RAM).
 - Sort Stability : If algo maintains the relative order of duplicate elements.
 - Inplace Sort : When additional space requirement is O(1) i.e. contant. Not directly depend upon the input size.
+ 
+<details>
+<summary>Selection Sort</summary>
 
 ### Selection Sort
 
@@ -22,6 +28,9 @@
 	- For large records selection is better than Bubble and Insertion Sort as cost of moving data is more than comparison for large record.
 	- Not Stable.
 	- Inplace.
+</details>
+<details>
+<summary>Bubble Sort</summary>
 
 ### Bubble Sort
 
@@ -35,7 +44,9 @@
 	- Stable sort(maintain the relative order of duplicate elements).
 	- Inplace sort(only one temp variable required).
 	- Space Complexity : O(1).
-
+</details>
+<details>
+<summary>Insertion Sort</summary>
 ### Insertion Sort
 
 - Insertion of the element at proper place like the card player.
@@ -55,6 +66,9 @@
 	- Stable sort(maintain the relative order of duplicate elements).
 	- Inplace sort(only one temp variable required).
 	- Space Complexity : O(1).
+</details>
+<details>
+<summary>Merge Sort</summary>
 
 ### Merge Sort
 
@@ -71,6 +85,9 @@
 	- Stable sort(maintain the relative order of duplicate elements).
 	- Not Inplace sort(as merging itself is not inplace).
 	- Space Complexity : O(n).
+</details>
+<details>
+<summary>Quick Sort</summary>
 
 ### Quick Sort(Partition Exchange Sort)
 
@@ -112,8 +129,14 @@
 		- stop j and move i : All equql elements would go the left sublist.
 		- stop both i and j : Many unnecessary swaps in case all the elements are same,but good thing is that i and j will meet in middle of the list. So no unbalanced sublists.
 		- move both i and j : No unnecessary swaps but unbalanced sublists.
-
+</details>
+<details>
+<summary>Binary Search Sort</summary>
 ### Binary Search Sort
-
+</details>
+<details>
+<summary>Heap Sort</summary>
 ### Heap Sort
-    
+</details>
+
+</details>

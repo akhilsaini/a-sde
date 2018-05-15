@@ -127,6 +127,15 @@
 	- [Also called Median selection algo](https://www.youtube.com/watch?v=eRqmSTSmkJk)
 	- [Refer](selection-algos/deterministic-selection-algo/median-lineartime.pdf)
 	- [Refer](selection-algos/deterministic-selection-algo/L05.pdf)
+	- Algo
+		- Divide the elements in the group of 5.
+		- Sort the groups.
+			- Running time will be O(n). Cause let's say if we use merge sort to sort the array of 5 elements than it will have 6*n*(log5base2 + 1) which will be 6*5*(3+1) = 120.
+			- Now there will be n/5 groups in which each group will take 120 operations which will be n/5*120 = 24n. so O(n) total time.
+		- Find meadians of each group.
+		- Put all the medians in a separate array and find the median of this array. Call this new median, median of median(MOM).
+		- This MOM is the pivot element.
+		- Now partition using this element as pivot in Quick Sort algo.
 - Duplicate elemnets in Quick Sort
 	- We stop variables when we find an element equal to the pivot. There can be 4 other options.
 		- stop i and move j : All equql elements would go the right sublist.

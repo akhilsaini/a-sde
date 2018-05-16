@@ -1,4 +1,6 @@
 [MAIN LINK TO FOLLOW](https://www.geeksforgeeks.org/amazon-interview-preparation/)
+[FAQ - 1](https://www.geeksforgeeks.org/amazons-asked-interview-questions/)
+[FAQ - 2](https://www.geeksforgeeks.org/amazons-most-frequently-asked-interview-questions-set-2/)
 
 <details>
 <summary>Sorting</summary>
@@ -125,6 +127,7 @@
 	- Ideal choice : is median of the elements. So instead of all elements choose median of first,last and mid elements. arr[low],arr[up],arr[(low+up)/2]. **Refer SK Srivastava Page 450. Little Tricky.**
 - **Deterministic Selection algorithm of O(n)**
 	- [Also called Median selection algo](https://www.youtube.com/watch?v=eRqmSTSmkJk)
+	- [Refer-GFG](https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array-set-3-worst-case-linear-time/)
 	- [Refer](selection-algos/deterministic-selection-algo/median-lineartime.pdf)
 	- [Refer](selection-algos/deterministic-selection-algo/L05.pdf)
 	- Algo

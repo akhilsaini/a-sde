@@ -1,6 +1,8 @@
 [MAIN LINK TO FOLLOW](https://www.geeksforgeeks.org/amazon-interview-preparation/)
+
 - [FAQ - 1](https://www.geeksforgeeks.org/amazons-asked-interview-questions/)
 - [FAQ - 2](https://www.geeksforgeeks.org/amazons-most-frequently-asked-interview-questions-set-2/)
+- [Interview Experience](https://www.geeksforgeeks.org/tag/amazon/)
 
 <details>
 <summary>Sorting</summary>

@@ -51,6 +51,7 @@
 </details>
 <details>
 <summary>Insertion Sort</summary>
+
 ### Insertion Sort
 
 - Insertion of the element at proper place like the card player.

@@ -151,7 +151,9 @@
 </details>
 <details>
 <summary>Binary Search Sort</summary>
+
 ### Binary Search Sort
+
 </details>
 <details>
 <summary>Heap Sort</summary>

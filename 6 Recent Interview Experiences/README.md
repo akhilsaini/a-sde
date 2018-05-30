@@ -31,6 +31,7 @@ Note : Check the iterative approach as well and Modular exponentation
 #### Q2 : Almost 15 minute discussion about what Customer Returns Team in Amazon does
 #### Q3 : A very detailed description of technical challenge faced (it includes HLD, LLD and the solution offered)
 #### Q4 : Design Promo Code API taking Amazon’s customer traffic into picture (HLD and LLD was discussed – including in memory databases)
+- https://www.quora.com/How-would-you-design-a-coupon-system-as-a-software-design-question
 #### Q5 : Which areas of yours would you like to improve upon? (Both technical and non-technical)
 
 ### Round 4 : Technical Round

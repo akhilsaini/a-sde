@@ -33,6 +33,13 @@ Note : Check the iterative approach as well and Modular exponentation
 #### Q4 : Design Promo Code API taking Amazon’s customer traffic into picture (HLD and LLD was discussed – including in memory databases)
 - https://www.quora.com/How-would-you-design-a-coupon-system-as-a-software-design-question
 #### Q5 : Which areas of yours would you like to improve upon? (Both technical and non-technical)
+- Technical
+	- Bits/Byte level understanding of software implementation
+	- Core of the networking
+	- UI/UX
+- Non-Technical
+	- Financial Understanding specially of Stock Market Trading
+	- 
 
 ### Round 4 : Technical Round
 #### Q1 : A brief introduction

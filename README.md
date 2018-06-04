@@ -1,4 +1,5 @@
-[MAIN LINK TO FOLLOW](https://www.geeksforgeeks.org/amazon-interview-preparation/)
+- [MAIN LINK TO FOLLOW](https://www.geeksforgeeks.org/amazon-interview-preparation/)
+- [CURRENT LINK TO FOLLW](https://www.cdn.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/)
 
 - [FAQ - 1](https://www.geeksforgeeks.org/amazons-asked-interview-questions/)
 - [FAQ - 2](https://www.geeksforgeeks.org/amazons-most-frequently-asked-interview-questions-set-2/)

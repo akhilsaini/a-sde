@@ -14,7 +14,7 @@
 	- Internal : Data to be sorted is small enough to be placed in main memory.
 	- External : Large data and can't be placed in main memory(RAM).
 - Sort Stability : If algo maintains the relative order of duplicate elements.
-- Inplace Sort : When additional space requirement is O(1) i.e. contant. Not directly depend upon the input size.
+- Inplace Sort : When additional space requirement is O(1) i.e. constant. Not directly depend upon the input size.
  
 <details>
 <summary>Selection Sort</summary>
